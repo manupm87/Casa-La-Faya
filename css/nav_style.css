@@ -1,0 +1,89 @@
+nav{
+	width:100%;
+	height:50px;
+}
+nav ul{
+	height:inherit;
+	width:inherit;
+}
+ul.nav_menu{
+	margin:0;
+	padding:0;
+	list-style: none;
+	font-family:"Myriad Pro", "Trebuchet MS", sans-serif;
+	font-size:14px;
+	width:100%;
+	
+	
+}
+
+ul.nav_menu li{
+	float:left;
+	width:25%;
+	height:inherit;
+	position:relative;
+	cursor:pointer;
+}
+.main_nav_link{
+	position:absolute;
+	top:0px;
+	left:0px;
+	width:100%;
+	height:100%;
+	z-index:12;
+	background-color:#00A000;
+	/*:transparent url(../images/min/wood1_min.jpg) no-repeat;
+	background-size:cover;*/
+	-moz-box-shadow:0px 0px 2px #000 inset;
+	-webkit-box-shadow:0px 0px 2px #000 inset;
+	box-shadow:0px 0px 2px #000 inset;
+}
+ul.nav_menu li span.sdt_wrap{
+	position:absolute;
+	
+	left:0px;
+	width:100%;
+	height:100%;
+	z-index:15;
+}
+
+/*ul.nav_menu li div.sdt_box a,*/
+ul.nav_menu li span span.sdt_link{
+	margin-left:15px;
+	text-transform:uppercase;
+	text-shadow:1px 1px 1px #000;
+	padding-top:12px;
+}
+
+ul.nav_menu li span span.sdt_link{
+	color:#fff;
+	font-size:24px;
+	float:left;
+	clear:both;
+}
+ul.nav_menu li div.sdt_box{
+	background-color:#00A000;
+	display:block;
+	position:absolute;
+	top:0;
+	height:100%;
+	width:100%;
+}
+ul.nav_menu li div.sdt_box a{
+	position:relative;
+	display: inline;
+	float:left;
+	width:50%;
+	height:inherit;
+	background-color:#00A000;
+	color:white;
+	text-transform:uppercase;
+	text-shadow:1px 1px 1px #000;
+	font-size: 18px;
+	text-decoration:none;
+}
+ul.nav_menu li div.sdt_box a span{
+	position:relative;
+	top: 15px;
+	left: 15px;
+}
